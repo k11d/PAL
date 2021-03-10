@@ -1,0 +1,2 @@
+# PAL
+Python Animation Library
