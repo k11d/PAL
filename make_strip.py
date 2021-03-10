@@ -32,7 +32,7 @@ def main():
             if direction == 'H':
                 ret[:, n*w : (n+1)*w, :] = frame[:,:,:3]
             elif direction == 'V':
-                ret[n*h:(n+1)*h, :, :] = frame[[:,:,:3]
+                ret[n*h:(n+1)*h, :, :] = frame[:,:,:3]
 
     if len(sys.argv) != 4 or '-h' in sys.argv or '--help' in sys.argv:
         print(f"Usage: {os.path.basename(sys.argv[0])} FRAMES_DIR/ H|V DESTNAME.PNG")
